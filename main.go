@@ -117,7 +117,7 @@ func sentTextMessage(recipient int, text string) error {
 	if err != nil {
 		return err
 	}
-	req, err := http.NewRequest("POST", "https://graph.facebook.com/v2.6/me/messages?access_token=CAAMjfhMzFSsBAPN4Rq1VrSq6qx4PHffkDYUJia9RhWKbSeLZCQ7Tcgvqlq2bPu2PKV5F9qhefAWA0iitBuEJylc92PLx1NSdvw7GkEf5TUGsqykWlXggVxpzqYyeKIfuDZBZAZAZBal7mHki5xf3WIbZAatUHDATZBqRyxYCKU40BEZBQFxcWiA5KVwumZBoeqQkZD", bytes.NewBuffer(b))
+	req, err := http.NewRequest("POST", "", bytes.NewBuffer(b))
 	if err != nil {
 		return err
 	}
