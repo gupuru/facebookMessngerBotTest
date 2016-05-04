@@ -13,8 +13,8 @@ import (
 // const ...
 const (
     EndPoint = "https://graph.facebook.com/v2.6/me/messages?access_token="
-    VerifyToken = "bot_sample_token"
-    AccessToken = "CAAMjfhMzFSsBAPN4Rq1VrSq6qx4PHffkDYUJia9RhWKbSeLZCQ7Tcgvqlq2bPu2PKV5F9qhefAWA0iitBuEJylc92PLx1NSdvw7GkEf5TUGsqykWlXggVxpzqYyeKIfuDZBZAZAZBal7mHki5xf3WIbZAatUHDATZBqRyxYCKU40BEZBQFxcWiA5KVwumZBoeqQkZD"
+    VerifyToken = ""
+    AccessToken = ""
 )
 
 
